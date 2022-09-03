@@ -1,0 +1,255 @@
+
+@media (max-width: 768px) {
+    .exan-sections .exan-points__item {
+    width: 100%;
+}
+.exan-points__grid{
+    justify-content: space-between;
+}
+
+}
+@media (max-width: 576px) {
+    
+.exan-points__grid {
+    grid-template-columns: repeat(1,auto);
+    padding-top: 20px;
+    
+}
+.exan-points__content{
+    flex-direction: column;
+}
+.exan-points__title{
+    font-size: 24px;
+line-height: 32px;
+}
+.exan-points__descr {
+    font-size: 18px;
+line-height: 24px;
+color: $black;
+margin-top: 1rem;
+}
+.exan-points__text{
+    margin-top: 20px;
+    font-size: 15px;
+line-height: 22px;
+
+}
+.exan-points__info {
+     padding-top: 20px; 
+}
+.exan-points__h3 {
+   font-size: 20px;
+line-height: 26px;
+}
+.exan-points__subtitle{
+    font-size: 15px;
+line-height: 22px;
+}
+.list__item{
+    font-size: 15px;
+line-height: 22px;
+
+}
+.list__number{
+    width: 57px;
+height: 38px;
+
+border: 1px solid $white_EF;
+border-radius: 100px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-shrink: 0
+}
+.exan-points__border{
+    border-right: 0;
+    border-bottom: 4px solid #efefef;
+    padding-bottom: 20px;
+    padding-right: 0!important;
+}
+.info-block__text{
+    font-size: 15px;
+line-height: 22px;
+}
+.exan-points__block-item{
+    margin-bottom: 20px;
+}
+.pocker-rooms {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.exan-points__h2{
+    font-size: 24px;
+line-height: 32px;
+}
+.pocker-rooms__content {
+    padding-top: 0px;
+}
+.exan-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 0;
+}
+.exan-card__btn{
+    margin: 16px 0 0 0;
+    max-width: none;
+    font-size: 15px;
+line-height: 22px;
+}
+.exan-card__title{
+    font-size: 15px;
+line-height: 22px
+}
+.exan-card__descr{
+    font-size: 15px;
+line-height: 22px
+}
+.exan-card__text {
+    font-size: 13px;
+    line-height: 18px;
+}
+.exan-card__btn-light{
+     font-size: 15px;
+line-height: 22px
+}
+.exan-courses {
+    padding-top: 20px;
+ 
+}
+.mt-40{
+    margin-top: 20px!important;
+}
+.exan-courses__btn{
+    font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+}
+.exan-border {
+    padding-bottom: 20px;
+}
+.exan-faq {
+    padding: 20px 0;
+}
+.exan-faq__content {
+    padding-top: 20px;
+}
+.exan-faq__item {
+    padding:  24px;
+    font-size: 18px;
+line-height: 24px;
+    
+}
+.exan-faq__answer{
+    margin-top: 20px;
+    font-size: 15px;
+line-height: 22px
+}
+.exan-faq__add,.exan-faq__close{
+    width: 26px;
+    height: 26px;
+}
+.exan-sections .exan-points__item {
+    padding: 24px;
+    width: auto;
+}
+.exan-sections .list {
+    padding-top: 24px;
+    font-size: 15px;
+line-height: 22px;
+}
+.exan-sections .list__item {
+    margin-bottom: 32px;
+}
+.list__number{
+    flex-shrink: 0;
+}
+.exan-sections .exan-points__block-item {
+    width: 100%;
+}
+.exan-sections-btn_success {
+    margin-top: 24px;
+}
+.exan-sections__border-bottom{
+    padding-bottom: 20px;
+}
+.exan-points__block{
+    margin-right: 0;
+}
+.wrapper .w-100vw, .w-100vw-p {
+     margin-left: 0!important; 
+     margin-right: 0!important; 
+}
+.transaction-table__item{
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 19px 16px;
+    margin-bottom: 20px;
+    &:last-child{
+        margin-bottom: 0;
+    }
+}
+.transaction-img{
+    width: 32px;
+    height: 32px;
+}
+.transaction-table {
+    padding-top: 20px;
+}
+.transaction-table__title {
+    font-size: 15px;
+line-height: 22px;
+}
+.transaction-table__text{
+    margin: 16px 0;
+    font-size: 15px;
+line-height: 22px;
+}
+.transaction-table__link{
+    font-size: 15px;
+line-height: 22px;
+}
+.transaction-table__number-block{
+    justify-content: flex-start;
+}
+.transaction-block{
+    margin-top: 20px;
+}
+.transaction__title{
+    font-size: 20px;
+line-height: 26px;
+}
+.transaction-block__text{
+font-size: 15px;
+line-height: 22px;
+}
+.transaction-info{
+    padding-top: 20px;
+}
+.exan-footer .mt-5 {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+.exan-footer .row {
+     margin-right: 0px; 
+     margin-left: 0px; 
+}
+}
+@media (max-width: 485px) {
+    .list__number {
+    margin-right: 20px;
+}
+    
+}
+@media (max-width: 360px) {
+ .top_1,.top_2,.top_3,.top_4,.top_5{
+     left: 55px;
+ }
+ .readmar__line {
+     margin-left: 10px;
+ }
+}
+@media (min-width: 2500px) {
+    
+
+}

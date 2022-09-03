@@ -1,0 +1,44 @@
+.exan-checkout {
+  max-width: 378px;
+  margin: 0 auto;
+  .form-dropdown .form-control {
+    color: $black;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+.fz-18 {
+  font-size: 18px;
+}
+.exan-checkout__disabled {
+  background: #e5ecf7;
+  opacity: 0.2;
+}
+.exan-checkout__warning {
+  font-weight: 400;
+  margin-bottom: 42px;
+  font-size: 16px;
+  line-height: 24px;
+  color: $red;
+}
+@media (max-width: 576px) {
+  .exan-checkout {
+    .my-40 {
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+    }
+    .db {
+      display: block !important;
+    }
+    .mb-40 {
+        margin-bottom: 20px !important;
+    }
+  }
+  .exan-checkout__sale {
+    margin-top: 10px;
+  }
+  .exan-checkout__warning {
+    margin-bottom: 23px;
+  }
+}

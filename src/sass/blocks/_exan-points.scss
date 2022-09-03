@@ -1,0 +1,523 @@
+.exan-points {
+  padding-top: 40px;
+
+  // .exan-points__wrapper
+
+  &__wrapper {
+    max-width: 1180px;
+    margin: 0 auto;
+  }
+
+  // .exan-points__content
+
+  &__content {
+    display: flex;
+  }
+
+  // .exan-points__block
+
+  &__block {
+    max-width: 480px;
+    width: 100%;
+    margin-right: 20px;
+  }
+
+  // .exan-points__img-wrapper
+
+  &__img-wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  // .exan-points__img
+
+  &__img {
+  }
+
+  // .exan-points__title
+
+  &__title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: $black;
+    padding-left: 20.5px;
+    margin-bottom: 0;
+  }
+
+  // .exan-points__descr
+
+  &__descr {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: $gray;
+    margin-top: 19px;
+  }
+
+  // .exan-points__text
+
+  &__text {
+    max-width: 680px;
+    background: $blue;
+    border-radius: 4px;
+    padding: 16px 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $white;
+  }
+
+  // .exan-points__info
+
+  &__info {
+    padding-top: 40px;
+  }
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 40px;
+    padding-top: 40px;
+    border-top: 1px solid $white_EF;
+  }
+
+  // .exan-points__item
+
+  &__item {
+    padding: 24px;
+    background: $white;
+
+    border: 1px solid $white_FA;
+    /* Drop Shadow Style 1 */
+
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+  }
+
+  // .exan-points__h3
+
+  &__h3 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  // .exan-points__yellow
+
+  &__yellow {
+    color: $yellow;
+  }
+
+  // .exan-points__subtitle
+
+  &__subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $gray;
+    margin-top: 8px;
+  }
+
+  // .exan-points__green
+
+  &__green {
+    color: $green;
+  }
+  &____link {
+    color: $blue;
+    text-decoration: none;
+  }
+  &__block-item {
+    background: $white;
+    border: 1px solid $white_EF;
+    padding: 24px;
+
+    border-radius: 4px;
+    margin-bottom: 24px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+.exan-points__border {
+  border-right: 4px solid #efefef;
+  padding-right: 40px !important;
+}
+.gap {
+  column-gap: 40px;
+}
+
+.list {
+  padding-top: 24px;
+
+  // .list__item
+
+  &__item {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  // .list__number
+
+  &__number {
+    color: $gray;
+    margin-right: 40px;
+  }
+
+  // .list__text
+
+  &__text {
+    max-width: 359px;
+  }
+  &__block {
+  }
+}
+.info-block {
+  // .info-block__text
+
+  &__text {
+    margin-top: 8px;
+    color: $gray;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.dashed {
+  border: 1px dashed #f7ce52;
+  background: $white_FF;
+}
+.exan-points__green {
+  color: $green;
+}
+
+.pocker-rooms {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  // .pocker-rooms__content
+
+  &__content {
+    padding-top: 40px;
+  }
+}
+.exan-points {
+  // .exan-points_h2
+
+  &__h2 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: $black;
+    text-align: center;
+    margin-bottom: 0;
+  }
+}
+
+.exan-card {
+  padding: 24px;
+  height: 100%;
+  background: $white;
+  margin-right: 20px;
+
+  border: 1px solid $white_FA;
+
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+
+  // .exan-card__img-wrapper
+
+  &__img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    width: 100%;
+    height: 136px;
+
+    border: 1px solid #efefef;
+    border-radius: 4px;
+    margin-bottom: 16px;
+  }
+
+  // .exan-card__img
+
+  &__img {
+  }
+
+  // .exan-card__title
+
+  &__title {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $black;
+  }
+
+  // .exan-card__circle
+
+  &__circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: $yellow;
+    margin-right: 8px;
+  }
+
+  // .exan-card__info
+
+  &__info {
+    margin-top: 16px;
+    padding: 16px;
+    background: $white_FF;
+    border-radius: 4px;
+  }
+
+  // .exan-card__descr
+
+  &__descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $black;
+    margin-bottom: 4px;
+  }
+
+  // .exan-card__text
+
+  &__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: $gray;
+  }
+  &__btn {
+    max-width: 332px;
+    width: 100%;
+    height: 50px;
+    display: block;
+    margin: 16px auto 0 auto;
+    background: $yellow;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: $black;
+    border: none;
+    &:hover {
+      background-color: #fcd86b;
+    }
+  }
+  &__link {
+    color: $black !important;
+    &:hover {
+      color: $black;
+      text-decoration: none;
+    }
+  }
+}
+
+.exan-courses {
+  padding-top: 40px;
+  border-bottom: 1px solid $white_EF;
+}
+.exan-border {
+  border-bottom: 1px solid $white_EF;
+  padding-bottom: 40px;
+}
+.exan-tab__nav .list-group .active {
+  background-color: $white_E5;
+  color: $blue;
+}
+.card-course__text {
+  color: $black !important;
+}
+.exan-courses__btn {
+  width: 100%;
+  height: 50px;
+  background-color: $yellow;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  &:hover {
+    background-color: #fcd86b;
+  }
+}
+
+// .exan-faq
+
+.exan-faq {
+  padding: 40px 0;
+
+  // .exan-faq__content
+
+  &__content {
+    max-width: 780px;
+    margin: 0 auto;
+    padding-top: 40px;
+  }
+
+  // .exan-faq__item
+
+  &__item {
+    padding: 28px 24px;
+    margin-bottom: 16px;
+    background: $white;
+
+    border: 1px solid $white_FA;
+
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  // .exan-faq__question
+
+  &__question {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: $black;
+    span {
+      max-width: 684px;
+      display: block;
+      margin-left: 19px;
+    }
+  }
+
+  // .exan-faq__add
+
+  &__add {
+  }
+
+  // .exan-faq__close
+
+  &__close {
+    display: none;
+  }
+
+  // .exan-faq__answer
+
+  &__answer {
+    transition: all 0.5s ease;
+    display: none;
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $gray;
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+.open {
+  &__add {
+    display: none;
+  }
+
+  &__close {
+    display: block;
+  }
+  &__answer {
+    display: block;
+  }
+}
+
+.open {
+  display: block;
+}
+.close {
+  display: none;
+}
+
+.exan-sections {
+  .exan-points__grid {
+    border: none;
+  }
+  .exan-points__item {
+    padding: 40px;
+    width: 665px;
+  }
+  .exan-points__item {
+    padding-top: 0;
+  }
+  .list__text {
+    max-width: none;
+  }
+  .exan-points__block-item {
+    width: 430px;
+  }
+  .list {
+    padding-top: 40px;
+  }
+  .list__item {
+    margin-bottom: 60px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  .exan-points__block-title {
+    margin-top: 16px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .s-64 {
+    width: 64px;
+    height: 64px;
+  }
+  .text {
+    color: $gray;
+  }
+  .border-none {
+    border: none;
+  }
+  .card-body {
+    padding: 24px 0 0 0;
+  }
+  .card-header {
+    padding: 40px 0 0 0;
+  }
+  .form-group {
+    margin-bottom: 24px;
+  }
+  textarea {
+    height: 100px;
+  }
+}
+.exan-sections__border-bottom {
+  border-bottom: 4px solid $white_EF;
+  padding-bottom: 80px;
+}
+
+.exan-footer {
+  .btn._lg {
+    min-height: 40px;
+    font-size: 14px;
+  }
+  a {
+    font-weight: 500;
+  }
+  .fz-14 {
+    font-size: 14px;
+  }
+}

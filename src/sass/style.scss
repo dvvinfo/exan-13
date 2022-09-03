@@ -1,0 +1,48 @@
+@import 'libs/normalize';
+@import 'libs/font';
+@import 'libs/bootstrap';
+@import 'libs/vendor';
+@import 'libs/common';
+@import 'libs/flag-icons';
+
+
+//@import 'libs/animate';
+
+@import 'base/variables';
+//@import 'base/animations';
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+body, html{
+    height: 100%;
+    min-height: 100%;
+   
+}
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    line-height: normal;
+    display: flex;
+    flex-direction: column;
+    height: -webkit-fill-available;
+   
+}
+.wrapper-content{
+    flex: 1 0 auto;
+}
+.footer{
+    flex: 0 0 auto;
+}
+
+@import 'blocks/_header';
+@import 'blocks/_exan-points';
+@import 'blocks/_transaction';
+@import 'blocks/_cards';
+@import 'blocks/_course-page-with-exp-points';
+@import 'blocks/_checkout-good';
+@import 'base/media';
+

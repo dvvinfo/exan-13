@@ -1,0 +1,150 @@
+.transaction-table {
+  padding-top: 43px;
+
+  // .transaction-table__item
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: $white_FA;
+    border: 1px solid $white_EF;
+    border-radius: 4px;
+    padding: 19px 24px;
+  }
+
+  // .transaction-table__title
+
+  &__title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $black;
+    max-width: 240px;
+    width: 100%;
+  }
+
+  // .transaction-table__img
+
+  &__img {
+    display: flex;
+    align-items: center;
+    img {
+      margin-right: 9px;
+    }
+  }
+
+  // .transaction-table__date
+
+  &__date {
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+  }
+
+  // .transaction-table__time
+
+  &__time {
+    color: $gray;
+    padding-left: 4px;
+  }
+
+  // .transaction-table__text
+
+  &__text {
+    max-width: 320px;
+    width: 100%;
+    margin: 0 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    img {
+      margin-right: 16px;
+    }
+  }
+
+  // .transaction-table__link
+
+  &__link {
+    color: $blue;
+  }
+
+  // .transaction-table__number-block
+
+  &__number-block {
+    max-width: 130px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+    img {
+      margin-right: 10px;
+    }
+  }
+  &__btn {
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.red {
+  color: $red;
+}
+.green {
+  color: $green;
+}
+
+.transaction-block {
+  margin-top: 30px;
+  background: $white;
+  padding: 24px;
+
+  border: 1px solid $white_FA;
+
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+
+  // .transaction-block__text
+
+  &__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $gray;
+    margin-top: 8px;
+    margin-bottom: 24px;
+  }
+}
+.transaction {
+  // .transaction__title
+
+  &__title {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    img {
+      margin: 0 10px;
+    }
+  }
+}
+
+.transaction-info {
+  padding-top: 30px;
+  .list__text {
+    max-width: 659px;
+    justify-content: space-between;
+  }
+}
+.btn:hover .transaction__icon {
+  fill: #212529;
+}
